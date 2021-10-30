@@ -1,0 +1,34 @@
+.services-section {
+    margin: 40px 6%;
+}
+.services-header{
+    text-align: center;
+    font-size: 22px;
+}
+.services-header h1{
+    color: rgb(2, 201, 141);
+}
+.all-service {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+@media only screen and (max-width: 750px) {
+    .all-service{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 30px;
+    }
+}
+@media only screen and (max-width: 490px) {
+    .services-section{
+        margin: 50px 4%;
+    }
+    .all-service{
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .services-header h1{
+        font-size: 30px;
+    }
+}

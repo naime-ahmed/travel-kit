@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 100px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    place-items: center;
+    background-color: black;
+    color: #fff;
+}
+.single-item p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        grid-template-columns: 1fr;
+        
+        
+    }
+
+}

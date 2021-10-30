@@ -1,0 +1,28 @@
+.place-order-section {
+    margin: 100px 6%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    place-items: center;
+}
+.place-order-form {
+    background-color: antiquewhite;
+    padding: 30px;
+    width: 270px;
+}
+
+.place-order-form > form > input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .place-order-section{
+        grid-template-columns: 1fr;
+        
+        
+    }
+}

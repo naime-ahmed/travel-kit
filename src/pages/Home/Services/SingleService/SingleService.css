@@ -1,0 +1,35 @@
+.single-service {
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: all 0.3s;
+}
+.single-service:hover {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.service-img img {
+    width: 100%;
+}
+
+.service-text {
+    padding: 30px ;
+}
+
+.service-text h3{
+    margin-top: 0;
+    color: rgb(75, 30, 236);
+}
+.service-text p{
+    text-align: justify;
+}
+.service-button {
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    background-color: rgb(35, 137, 253);
+    border-radius: 4px;
+    cursor: pointer;
+    font: 400;
+    font-size: 15px;
+    color: #fff;
+}
